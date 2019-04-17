@@ -1,5 +1,6 @@
 #!/bin/bash
-cd builddir/
+cd build/
+#  meson --prefix=/usr ..
 ninja
 
 
